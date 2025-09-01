@@ -38,19 +38,3 @@ IHEPC_Repo/
    ```bash
    jupyter lab IHEPC_Tarefas.ipynb
    ```
-
-## 🧭 Guia das Tarefas (no estilo *NovoSERS*)
-O notebook está dividido em partes com células de **Markdown** e **código** com cabeçalhos:
-- **Parte 0 — Setup & Carregamento**
-- **Parte 1 — Limpeza e Entendimento**
-- **Parte 2 — Exploração Temporal**
-- **Parte 3 — Agregações & Perfis de Consumo**
-- **Parte 4 — Modelagem Baseline & Salvamento**
-
-Cada **Tarefa** vem comentada em português, com explicações curtas e passos objetivos.
-Sempre que possível, há validações, `assert`s e gráficos para interpretar os resultados.
-
-## 📝 Observações
-- O notebook tenta baixar automaticamente o dataset via URL. Caso a rede esteja bloqueada, faça o download manual e ajuste `data_path`.
-- Gráficos são feitos com **matplotlib** (sem estilos customizados).
-- O notebook salva saídas úteis em `./_out/`.
